@@ -7,16 +7,16 @@ import sys
 import os
 
 
-today  =  datetime . now () +  timedelta ( hours = 8 )
-start_date  =  os . environ [ 'START_DATE' ]
-city  =  os . environ [ 'CITY' ]
-birthday  =  os . environ [ 'BIRTHDAY' ]
+# today  =  datetime . now () +  timedelta ( hours = 8 )
+# start_date  =  os . environ [ 'START_DATE' ]
+#city  =  os . environ [ 'CITY' ]
+#birthday  =  os . environ [ 'BIRTHDAY' ]
 
-app_id  =  os . environ [ "APP_ID" ]
-app_secret  =  os . environ [ "APP_SECRET" ]
+#app_id  =  os . environ [ "APP_ID" ]
+#app_secret  =  os . environ [ "APP_SECRET" ]
 
-user_ids  =  os . environ [ "USER_ID" ]. split ( " \n " )
-template_id  =  os . environ [ "TEMPLATE_ID" ]
+#user_ids  =  os . environ [ "USER_ID" ]. split ( " \n " )
+#template_id  =  os . environ [ "TEMPLATE_ID" ]
 
 def get_color():
     # 获取随机颜色
