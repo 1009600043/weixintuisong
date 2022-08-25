@@ -1,8 +1,8 @@
 name: weixin
 on:
-  push:
-    branches:
-      - main
+ schedule:
+  - cron:  '0 0 * * *'
+   workflow_dispatch:
 
 jobs:
 #将工作流程中运行的所有作业组合在一起
