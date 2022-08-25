@@ -1,8 +1,9 @@
 name: weixin
 on:
- schedule:
-  - cron:  '0 9 * * *'
-   workflow_dispatch:
+ workflow_dispatch:
+ schedule: 
+    - cron:  ' 0 9 * * *'
+
 
 jobs:
 #将工作流程中运行的所有作业组合在一起
